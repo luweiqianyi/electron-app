@@ -21,7 +21,7 @@
     npm start
     ```
 * 效果
-    ![](./01-init.md)
+    ![](./imgs/00-init-app.png)
 
 ## 参考链接
 * npm配置国内源： [https://cloud.tencent.com/developer/article/1372949](https://cloud.tencent.com/developer/article/1372949)
