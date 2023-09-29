@@ -1,3 +1,19 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+
+/* for (const type of ['chrome', 'node', 'electron']) {
+    replaceText(`${type}-version`, process.versions[type])
+  } */
+
+#chrome-version {
+    color: chocolate;
+}
+
+#node-version {
+    color: #3da742;
+}
+
+#electron-version {
+    color:#f23d27;
+}

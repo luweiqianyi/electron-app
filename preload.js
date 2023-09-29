@@ -5,9 +5,11 @@
  *
  * https://www.electronjs.org/docs/latest/tutorial/sandbox
  */
+
+// 监听页面的DOMContentLoaded事件
 window.addEventListener('DOMContentLoaded', () => {
-  const replaceText = (selector, text) => {
-    const element = document.getElementById(selector)
+  const replaceText = (s, text) => {//用于替换具有指定id的元素的文本内容。
+    const element = document.getElementById(s)//原先是selector,改成s没有任何影响
     if (element) element.innerText = text
   }
 
